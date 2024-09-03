@@ -2,7 +2,7 @@ import daisyui from "daisyui";
 
 export default {
   plugins: [daisyui],
-  daisyui: { themes: [], logs: false },
+  daisyui: { themes: ["light", "dark", "cupcake"], logs: false },
   content: ["./**/*.tsx"],
   theme: {
     container: { center: true },
